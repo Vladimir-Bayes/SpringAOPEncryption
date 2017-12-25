@@ -43,7 +43,7 @@ public class AESAspect {
         	System.out.println(args[i]+"*******************");
         }
         
-//        byte[] Message = AESUtil.hex2byte((String) args[1]);
+//      byte[] Message = AESUtil.hex2byte((String) args[1]);
 //		byte[] decodeMessage = AESUtil.AESJDKDecode(Message, key);
 //		new String(decodeMessage);//AES解密
 //        

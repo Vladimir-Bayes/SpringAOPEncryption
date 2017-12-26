@@ -24,7 +24,6 @@ public class AESAspect {
     @Autowired
     @Qualifier("userDao")
     private UserDao userDao;
-
     @Pointcut("execution(* com.terabits.service.UserService.message(..))")
     public void messagePointcut() {}
 
